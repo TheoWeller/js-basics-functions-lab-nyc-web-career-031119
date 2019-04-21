@@ -1,4 +1,5 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(distance) {
-  distance > 42 ? distance  % 42 : 42 % distance;
+  let answer;
+  distance > 42 ? answer = distance  % 42 : answer = 42 % distance;
 };
