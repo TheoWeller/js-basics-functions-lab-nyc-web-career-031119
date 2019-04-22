@@ -20,19 +20,19 @@ function distanceTravelledInFeet(arg1, arg2) {
 };
 
 function calculatesFarePrice(start, destination) {
-  const distance_travelled = distanceFromHqInFeet(start, destination)
+  const distanceTravelled = distanceFromHqInFeet(start, destination)
 
-  switch (distance_travelled) {
-    case: distance_travelled < 400;
+  switch (distanceTravelled) {
+    case: distanceTravelled < 400;
       return 0;
       break;
-    case: distance_travelled > 400 && distance_travelled < 2000;
-      return (distance_travelled - 400) * 0.2;
+    case: distanceTravelled > 400 && distanceTravelled < 2000;
+      return (distanceTravelled - 400) * 0.2;
       break;
-    case: distance_travelled > 2000 && distance_travelled < 2500;
+    case: distanceTravelled > 2000 && distanceTravelled < 2500;
       return 25;
       break;
-    case: distance_travelled > 2500;
+    case: distanceTravelled > 2500;
       return 'cannot travel that far';
       break;
 
