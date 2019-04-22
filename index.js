@@ -34,6 +34,7 @@ function calculatesFarePrice(start, destination) {
       break;
     case: distance_travelled > 2500;
       return 'cannot travel that far';
+      break;
 
   }
 };
