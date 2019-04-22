@@ -15,6 +15,6 @@ function distanceTravelledInFeet(arg1, arg2) {
   if (arg1 < arg2) {
     return arg2 % arg1 * 264;
 } else {
-    return arg2 % arg1 * 264;
+    return arg1 % arg2 * 264;
   }
 };
