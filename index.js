@@ -28,26 +28,7 @@ if (distanceTravelled < 400) {
     return (distanceTravelled - 400) * 0.2;
 } else if (distanceTravelled > 2000 && distanceTravelled < 2500) {
     return 25;
+} else if (distanceTravelled > 2500) {
+  return 'cannot travel that far';
 }
-
-
-
-  switch (distanceTravelled) {
-    case distanceTravelled < 400:
-      return 0;
-      break;
-    case distanceTravelled > 400 && distanceTravelled < 2000:
-
-      break;
-    case distanceTravelled > 2000 && distanceTravelled < 2500:
-      return 25;
-      break;
-    case distanceTravelled > 2500:
-      return 'cannot travel that far';
-      break;
-    default:
-      return 'error';
-      break;
-
-  }
 };
