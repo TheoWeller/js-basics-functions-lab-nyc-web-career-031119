@@ -37,7 +37,7 @@ if (distanceTravelled < 400) {
       return 0;
       break;
     case distanceTravelled > 400 && distanceTravelled < 2000:
-      
+
       break;
     case distanceTravelled > 2000 && distanceTravelled < 2500:
       return 25;
